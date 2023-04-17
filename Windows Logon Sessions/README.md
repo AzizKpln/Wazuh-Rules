@@ -20,11 +20,12 @@ Log Output: Active Response Log
 
 MITRE: T1078
 
-Edit agent configuration in Wazuh manager (shared/groups)
+Edit agent configuration in Wazuh manager (ossec.conf)
 
-(/var/ossec/etc/shared/your_windows_agents_group/agent.conf)
+(/var/ossec/etc/ossec.conf)
 
- ```<wodle name="command">
+ ```
+ <wodle name="command">
   <disabled>no</disabled>
   <tag>logonsessions</tag>
   <command>Powershell.exe -executionpolicy bypass -File "C:\Program Files\Sysinternals\logonsessions.ps1"</command>
