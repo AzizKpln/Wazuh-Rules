@@ -24,7 +24,8 @@ Edit agent configuration in Wazuh manager (shared/groups)
 
 (/var/ossec/etc/shared/your_windows_agents_group/agent.conf)
 
- ```<wodle name="command">
+ ```
+ <wodle name="command">
   <disabled>no</disabled>
   <tag>logonsessions</tag>
   <command>Powershell.exe -executionpolicy bypass -File "C:\Program Files\Sysinternals\logonsessions.ps1"</command>
