@@ -25,6 +25,15 @@ SOCFortress - [![LinkedIn][linkedin-shield]][linkedin-url] - info@socfortress.co
 
 
 </div>
+```
+<wodle name="osquery">
+ <disabled>no</disabled>
+ <run_daemon>yes</run_daemon>
+ <bin_path>/usr/bin/</bin_path>
+ <log_path>/var/log/osquery/osqueryd.results.log</log_path>
+ <config_path>/etc/osquery/osquery.conf</config_path>
+</wodle>
+```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
